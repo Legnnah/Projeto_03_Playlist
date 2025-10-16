@@ -27,29 +27,30 @@ if genero_selecionado and artista_por_genero:
     st.write(f"**Gênero:** {genero_selecionado}")
 
 # Mostrar video
-if genero_selecionado == "Rock" and artista_por_genero == "Nickelback":
-    st.video("https://youtu.be/Aiay8I5IPB8?si=VQGAjAr1ryG2LdPE")
+    if genero_selecionado == "Rock" and artista_selecionado == "Nickelback":
+        st.write("OIIII")
+        st.video("https://youtube/Aiay8I5IPB8?si=VQGAjAr1ryG2LdPE")
 
-elif genero_selecionado == "Rock" and artista_por_genero == "Daftones":
-    st.video("https://youtu.be/ifN91YvHj7g?si=BLhOAoo_liY-jI_J")
+    elif genero_selecionado == "Rock" and artista_selecionado == "Daftones":
+        st.video("https://youtu.be/ifN91YvHj7g?si=BLhOAoo_liY-jI_J")
 
-elif genero_selecionado == "Trap" and artista_por_genero == "Travis Scott":
-    st.video("https://youtu.be/B9synWjqBn8?si=e5aBY8AWShu4QFDA")
+    elif genero_selecionado == "Trap" and artista_selecionado == "Travis Scott":
+        st.video("https://youtu.be/B9synWjqBn8?si=e5aBY8AWShu4QFDA")
 
-elif genero_selecionado == "Trap" and artista_por_genero == "Drake":
-    st.video("https://youtu.be/JFm7YDVlqnI?si=FQcJLiBNwEjgMs4q")
+    elif genero_selecionado == "Trap" and artista_selecionado == "Drake":
+        st.video("https://youtu.be/JFm7YDVlqnI?si=FQcJLiBNwEjgMs4q")
 
-elif genero_selecionado == "Trap" and artista_por_genero == "Don Toliver":
-    st.video("https://youtu.be/_r-nPqWGG6c?si=pkr75PzCawlN-yNh")
+    elif genero_selecionado == "Trap" and artista_selecionado == "Don Toliver":
+        st.video("https://youtu.be/_r-nPqWGG6c?si=pkr75PzCawlN-yNh")
 
-elif genero_selecionado == "POP" and artista_por_genero == "Laufey":
-    st.video("https://youtu.be/Yq6qkq_TWAM?si=mpn11AGHyitON_Ac")
+    elif genero_selecionado == "POP" and artista_selecionado == "Laufey":
+        st.video("https://youtu.be/Yq6qkq_TWAM?si=mpn11AGHyitON_Ac")
 
-elif genero_selecionado == "POP" and artista_por_genero == "Addison Rae":
-    st.video("https://youtu.be/beNFK2cdnKU?si=4FWzqcu1mugjmGlY")
+    elif genero_selecionado == "POP" and artista_selecionado == "Addison Rae":
+        st.video("https://youtu.be/beNFK2cdnKU?si=4FWzqcu1mugjmGlY")
 
-elif genero_selecionado == "POP" and artista_por_genero == "Taylor Swift":
-    st.video("https://youtu.be/pB-MmaoO6B8?si=QddocAi_LWgzueAS")
+    elif genero_selecionado == "POP" and artista_selecionado == "Taylor Swift":
+        st.video("https://youtu.be/pB-MmaoO6B8?si=QddocAi_LWgzueAS")
 
 
 
